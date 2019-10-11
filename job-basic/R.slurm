@@ -5,8 +5,8 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --time=00:10:00        # 10 minutes
-#SBATCH --mem=500M
-#SBATCH --output=R_job_slurm.out
+#SBATCH --mem=5G
+#SBATCH --output=R_job_slurm_%A.out
 
 module load GCC OpenMPI R
 Rscript --vanilla vectorize.R
