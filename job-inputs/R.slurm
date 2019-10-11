@@ -10,5 +10,3 @@
 
 module load GCC OpenMPI R
 Rscript --vanilla vectorize.R
-# you can also use "R CMD BATCH vectorize.R", and 
-# the output will go to a file named vectorize.Rout
