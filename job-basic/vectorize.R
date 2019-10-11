@@ -8,9 +8,6 @@
 # Outputs: none
 # System out: cat output, the times of execution, the means of the squared vector of random numbers
 
-args <- commandArgs(trailingOnly = TRUE)
-args <- as.numeric(args)
-
 n = 10e7
 cat("Using default ", n, " elements for multiply.\n\n")
 
