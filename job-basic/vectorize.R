@@ -12,7 +12,7 @@ n = 10e7
 cat("Using default ", n, " elements for multiply.\n\n")
 
 # populate with random nos of length n
-v=runif(args[1])
+v=runif(n)
 
 # Vectorized square of elements
 cat(" Results for vectorized multiply: \n")
