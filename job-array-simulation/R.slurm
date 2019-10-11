@@ -6,7 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --time=00:10:00        # 10 minutes
 #SBATCH --mem=500M
-#SBATCH --array=5
+#SBATCH --array=1-5
 #SBATCH --output=R_slurmjob_%A_task_%a.out
 
 #Load the relevant modules using Lmod

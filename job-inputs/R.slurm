@@ -9,4 +9,4 @@
 #SBATCH --output=R_job_slurm.out
 
 module load GCC OpenMPI R
-Rscript --vanilla vectorize.R
+Rscript --vanilla vectorize.R 1e3
