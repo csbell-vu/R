@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --mail-user=c.bell@vanderbilt.edu
+#SBATCH --mail-user=<my.email@vanderbilt.edu>
 #SBATCH --mail-type=ALL
 #SBATCH --account=p_dsi
 #SBATCH --nodes=1
